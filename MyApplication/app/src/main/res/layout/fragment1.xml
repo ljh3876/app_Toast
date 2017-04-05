@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:textSize="17dp"
+        android:id="@+id/button_table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사과테이블(비어있음)" />
+
+    <Button
+        android:textSize="17dp"
+        android:id="@+id/button_table2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="포도테이블(비어있음)" />
+
+    <Button
+        android:textSize="17dp"
+        android:id="@+id/button_table3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키위테이블(비어있음)" />
+
+    <Button
+        android:textSize="17dp"
+        android:id="@+id/button_table4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자몽테이블(비어있음)" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="테이블명" />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/textView_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="입장시간" />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/textView_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="스파게티" />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/textView_spa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="피자" />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/textView_piz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="멤버쉽카드" />
+
+            <TextView
+                android:textSize="17dp"
+                android:id="@+id/textView_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:background="#ffe2ff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="가격" />
+
+            <TextView
+                android:textSize="17dp"
+                android:textColor="#ff6472"
+                android:id="@+id/textView_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:textSize="17dp"
+            android:id="@+id/button_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="새주문" />
+
+        <Button
+            android:textSize="17dp"
+            android:id="@+id/button_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="정보수정" />
+
+        <Button
+            android:textSize="17dp"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="초기화" />
+    </LinearLayout>
+</LinearLayout>
